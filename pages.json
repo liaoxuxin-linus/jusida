@@ -1,0 +1,52 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages			
+        {
+            "path" : "pages/start/start",
+            "style" : {}
+        },        
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "disableScroll" : true
+            }
+        },
+		{
+		    "path" : "pages/task/task",
+		    "style" : {
+		        "navigationBarTitleText" : "任务",
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"enablePullDownRefresh":true //开启下拉刷新
+		    }
+		},
+        {
+            "path" : "pages/task-details/task-details",
+            "style" : {
+				"navigationBarTitleText" : "详情"
+			}
+        },
+		{
+		    "path" : "pages/freight-bill/freight-bill",
+		    "style" : {
+				"navigationBarTitleText" : "运单"
+			}
+		},{
+            "path" : "pages/accept-task/accept-task",
+            "style" : {
+				"navigationBarTitleText" : "接收任务"
+			}
+        }
+        ,{
+            "path" : "pages/guide/guide",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "backgroundTextStyle" : "light",
+        "navigationBarBackgroundColor" : "#fff",
+        "navigationBarTitleText" : "JUSIDA",
+        "navigationBarTextStyle" : "white",
+        "navigationStyle" : "custom"
+    }
+}
